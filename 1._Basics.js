@@ -3,8 +3,10 @@
 // --------------------------------------
 // Exercise 1 - Console and constiables
 
-const firstName = "Anders";
-const lastName = "Latif";
+const firstName = "Omar";
+const lastName = "Al-Ali";
+
+console.log(`My first name is ${firstName} and my last name is ${lastName}`);
 
 // EXERCISE
 // show in the console
@@ -16,6 +18,8 @@ const lastName = "Latif";
 
 const year = "2024";
 const increment = 1;
+
+console.log(`Next year will be ${Number(year) + increment}`);
 
 // Add the year plus the increment
 // The result should be 2025
